@@ -1,0 +1,53 @@
+#services {
+  background-image: url("../gambar/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+#services::before {
+  background-color: #033357b8;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#services legend {
+  color: #f0b60c;
+  position: relative;
+}
+#services section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 100%;
+  position: relative;
+}
+#services section article {
+  width: 250px;
+  margin: 20px;
+  color: #fff;
+  background-color: #033357;
+  padding: 15px;
+  box-shadow: 10px 10px 10px #011524;
+  border-radius: 1rem;
+  transition: all 1s;
+}
+#services section article:hover{
+  color: #f0b60c;
+}
+#services section article i{
+  font-size: 8rem;
+  text-align: center;
+  width: 100%;
+}
+#services section article h1{
+  text-align: center;
+  margin: 20px 0 0 0;
+}

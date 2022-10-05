@@ -1,0 +1,31 @@
+#owner img{
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#owner legend,
+#owner h1, 
+#owner h2 {
+  text-align: center;
+}
+blockquote {
+  font-size: 1rem;
+  line-height: 31px;
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  background: url(https://www.ahp.id/wp-content/themes/betheme/images/stripes/textline.png) repeat-y;
+}
+blockquote:after {
+  content: '"';
+  font-family: "mfn-icons";
+  font-size: 65px;
+  position: absolute;
+  left: -25px;
+  top: -10px;
+  color: chocolate;
+}

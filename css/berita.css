@@ -1,0 +1,54 @@
+#berita section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+#berita section article {
+  width: 300px;
+  border: 2px solid #033357;
+  border-radius: 1rem 0;
+  margin: 4rem 0.5rem 0 0.5em;
+}
+#berita section article img {
+  display: block;
+  margin: 0.5rem auto;
+}
+#berita legend {
+  text-align: center;
+}
+#berita h1 {
+  text-align: center;
+  margin: 5px 0;
+}
+#berita .klip {
+  width: 60px;
+  margin: -50px auto 0 auto;
+}
+#berita .panjang-text {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin: 10px;
+}
+#berita button {
+  background-color: #033357;
+  width: 100px;
+  padding: 0.5rem 0;
+  color: #f0b60c;
+  border: 0;
+  font-size: 1rem;
+  float: right;
+  margin: 0 10px 10px 0;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#berita button:hover{
+  background-color: #f0b60c;
+  color: #033357;
+}

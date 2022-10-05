@@ -1,0 +1,40 @@
+#kontak {
+  margin: 0 0 2rem 0;
+}
+#kontak section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#kontak section img {
+  width: 200px;
+}
+#kontak section article {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+#kontak section article h1 {
+  text-align: center;
+}
+#kontak section article hr {
+  border-top: 3px dashed #033357;
+  margin: 1rem 0;
+}
+#kontak section article a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#kontak section article a:hover {
+  color: #f0b60c;
+}
+@media screen and (max-width:600px) {
+  #kontak section article {
+    font-size: 1rem;
+  }
+  #kontak section img {
+    display: none;
+  }
+}

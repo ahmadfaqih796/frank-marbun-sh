@@ -1,0 +1,23 @@
+#profil {
+  margin: 6rem 0;
+}
+#profil article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+#profil article iframe {
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+#profil article p {
+  width: 500px;
+  align-self: center;
+  text-align: justify;
+}
+#komentar img{
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}

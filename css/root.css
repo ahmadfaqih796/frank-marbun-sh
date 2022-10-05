@@ -1,0 +1,17 @@
+/* :root{
+  background-color: #033357;
+  background-color: #f0b60c;
+} */
+svg {
+  margin: -5px 0 0 0;
+}
+legend {
+  font-family: "justice";
+  font-size: 3rem;
+  text-align: center;
+  margin: 50px;
+}
+@font-face {
+  font-family: justice;
+  src: url(../font/justicecondstraight.ttf);
+}

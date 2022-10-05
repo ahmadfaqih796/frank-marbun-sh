@@ -1,0 +1,20 @@
+footer {
+  background-color: #033357;
+  text-align: center;
+  color: #f0b60c;
+}
+footer .sosial-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+footer .sosial-media a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+footer .sosial-media a:hover {
+  color: #f0b60c;
+}
