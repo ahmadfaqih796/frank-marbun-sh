@@ -11,6 +11,16 @@ legend {
   text-align: center;
   margin: 50px;
 }
+.panjang-text {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin: 10px;
+}
 @font-face {
   font-family: justice;
   src: url(../font/justicecondstraight.ttf);
