@@ -1,0 +1,24 @@
+#nav-gallery section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#nav-gallery section article {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+#nav-gallery section article img {
+  width: 250px;
+  height: 250px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: block;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+#nav-gallery section article p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
