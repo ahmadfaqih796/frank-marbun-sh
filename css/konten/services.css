@@ -1,0 +1,21 @@
+#nav-services section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}
+#nav-services section article {
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem;
+}
+#nav-services hr {
+  border-top: 3px dashed #033357;
+  margin: 1rem 0;
+}
+#nav-services h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
