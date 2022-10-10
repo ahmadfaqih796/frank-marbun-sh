@@ -1,0 +1,27 @@
+#nav-profil {
+  margin: 0 0 3rem 0;
+}
+#nav-profil section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+#nav-profil section article {
+  width: 500px;
+  text-align: justify;
+}
+#nav-profil section img {
+  width: 300px;
+  height: 100px;
+}
+#nav-profil .teks {
+  max-width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 1rem;
+}
+#nav-profil ol li {
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}

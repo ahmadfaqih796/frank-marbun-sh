@@ -5,6 +5,9 @@
 svg {
   margin: -5px 0 0 0;
 }
+/* p {
+  font-family: kiano;
+} */
 legend {
   font-family: "justice";
   font-size: 3rem;
@@ -24,4 +27,8 @@ legend {
 @font-face {
   font-family: justice;
   src: url(../font/justicecondstraight.ttf);
+}
+@font-face {
+  font-family: kiano;
+  src: url(../font/kiano-trial.regular.otf);
 }
