@@ -2,6 +2,7 @@ footer {
   background-color: #033357;
   text-align: center;
   color: #f0b60c;
+  padding: 10px;
 }
 footer .sosial-media {
   display: flex;

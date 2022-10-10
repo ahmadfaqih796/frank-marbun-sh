@@ -11,6 +11,10 @@
   margin: 1rem;
   padding: 1rem;
 }
+#nav-services section article p {
+  text-align: justify;
+  margin: 0.5rem 0;
+}
 #nav-services hr {
   border-top: 3px dashed #033357;
   margin: 1rem 0;
