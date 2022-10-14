@@ -1,3 +1,6 @@
+#nav-berita {
+  margin: 0 0 4rem 0;
+}
 #nav-berita section {
   display: flex;
   width: 500px;
@@ -10,17 +13,25 @@
 }
 #nav-berita section article a {
   text-decoration: none;
+	display: block;
+	margin: 1rem auto 0.5rem auto;
   text-align: center;
   font-size: 1.5rem;
-  padding: 0 0 1rem 0;
 }
 #nav-berita section article img {
   margin: 0 auto;
+	width: 400px;
+	height: 200px;
+	object-fit: cover;
   display: block;
 }
 @media screen and (max-width: 650px) {
   #nav-berita section {
     width: 300px;
+  }
+	#nav-berita section article img {
+    width: 270px;
+		height: 150px;
   }
   #nav-berita table tr td img {
     display: none;

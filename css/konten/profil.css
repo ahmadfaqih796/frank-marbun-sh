@@ -1,5 +1,5 @@
 #nav-profil {
-  margin: 0 0 3rem 0;
+  margin: 0 0 4rem 0;
 }
 #nav-profil section {
   display: flex;
@@ -13,7 +13,9 @@
 }
 #nav-profil section img {
   width: 300px;
-  height: 100px;
+	margin: 0 1rem;
+	object-fit: cover;
+	border-radius: 1rem;
 }
 #nav-profil .teks {
   max-width: 800px;
